@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+section{
+    margin: 0;
+    padding: 0;
+    border:0.overflow solid black;
+}
+.intro{
+    height:100vh;
+    background-image:url(../images/Add\ a\ heading.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:0.1px solid black;
+    position: relative;
+    width:100%;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    color: rgb(209, 208, 208);
+    justify-content:flex-end;
+    margin-right:85px;
+    list-style-type: none;
+}
+.links li{
+    margin:35px 95px;
+    font-size: 21px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.img{
+    background-image:url(../images/steve2.jpg);
+    height:34vh;
+    width:23%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:66%;
+    top:23%;
+    z-index:2;
+}
+.text{
+    color: white;
+    position: absolute;
+    top:54%;
+    left:44%;
+    z-index:2;
+}
+.text h1{
+    font-size:5vw;
+    width:51%;
+    margin-top:2px;
+    margin-bottom:12px;
+    text-align: center;
+    padding-top:1px;
+}
+.text p{
+    font-size:15px;
+    margin-top:2px;
+    width: 51%;
+    text-align: center;
+}
+.neon-edge{
+    border:7px solid rgb(41, 41, 171);
+    height:43vh;
+    width:15%;
+    position: absolute;
+    top:35%;
+    left:55%;
+    z-index:1;
+}
+.sidenav {
+    height: 80%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 10%;
+    right: 0;
+    background-color: rgb(41, 41, 171);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sidenav a {
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #e9e9e9;
+    display: block;
+    transition: 0.3s;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-top:10px;
+}
+
+.sidenav a:hover {
+    color: #000000;
+}
+.sidenav a:active{
+    border-bottom: 2px solid red;
+}
+
+.closebtn {
+    font-size:32px;
+    margin-right:0px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sidenav .closebtn:hover {
+    transform: rotate(90deg);
+}
+
+.openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    display: flex;
+    z-index:3;
+}
+
+.openbtn:hover {
+    background-color: #2e2e2e;
+}
+.Qualities{
+    background:#252525;
+    height:100vh;
+    position: relative;
+}
+.container{
+  background:transparent;
+  height:90%;
+  width:95%;
+  border:6px solid  rgb(41, 41, 171);
+  position: absolute;
+  top:4%;
+  left:2%;
+}
+.img-3{
+    height:45vh;
+    width:28vw;
+    margin-left:63%;
+    margin-top:10%;
+    background-image: url(../images/steve3.jpg);
+    background-size: cover;
+}
+.quote-1 , .quote-2,.quote-3,.quote-4{
+    position:absolute;
+    width:30%;
+    text-align: center;
+    color: white;
+}
+.quote-1 p, .quote-2 p,.quote-3 p,.quote-4 p{
+    font-size:15px;
+    width:60%;
+    text-align: center;
+    margin: auto;
+}
+.quote-1 h3, .quote-2 h3,.quote-3 h3,.quote-4 h3{
+    font-size:23px;
+    font-style: italic;
+}
+.quote-1{
+    top:5%;
+    left:5%;
+}
+.quote-2{
+    top:25%;
+    left:31%;
+}
+.quote-2 p{
+    width:55%;
+}
+.quote-3{
+    top:45%;
+    left:5%;
+}
+.quote-4{
+    left:31%;
+    top:65%;
+}
+.short-Bio{
+    height:103vh;
+    width:100%;
+    background-color:#363636;
+    position: relative;
+    border-top:7px solid #363636;
+    border-bottom:7px solid #363636;
+}
+.bio-header {
+    position: absolute;
+    color:rgb(255, 255, 255);
+    margin-left:65%;
+    border-bottom:4px solid rgb(41, 41, 171);
+    margin-right:2%;
+}
+.main-line{
+    height:0.6vh;
+    background-color:rgb(41, 41, 171);
+    top:50%;
+    width:100%;
+    position:absolute;
+}
+.branch{
+    width:0.1vw;
+    margin-right:11%;
+    margin-left:6%;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 2px 2px 15px rgb(41, 41, 171);
+    padding:0;
+}
+.top ,.bottom{
+    display: flex;
+    flex-direction: row;
+    height:15vh;
+    width:100%;
+}
+.top{
+    align-items: end;
+}
+.bottom{
+    margin-left:9%;
+}
+.small{
+    height:10vh;
+}
+.large{
+    height:20vh;
+}
+.top-content,.bottom-content{
+    height:41vh;
+    border:0.1px solid #363636;
+    display: flex;
+    flex-direction: row;
+}
+.top-content p,.top-content h1,.bottom-content p,.bottom-content h1{
+    width:13vw;
+    color: white;
+    text-align: center;
+    margin-left:1%;
+    margin-top:0.1%;
+}
+.top-content{
+    margin-bottom:-2.1%;
+}
+.bottom-content{
+    margin-left:9%;
+    margin-top:-2%;
+}
+.under{
+    height:30vh;
+    margin-top:5%
+}
+.over{
+    margin-bottom:2%;
+}
+.bottom-content p , .top-content p{
+    font-size:12px;
+    margin-bottom:0.1%;
+}
+.bottom-content h1,.top-content h1{
+    font-size:20px;
+}
+.img-cont{
+    height:14vh;
+    width:9vw;
+    margin-top:2%;
+    margin:auto;
+}
+.img-cont img{
+    object-fit: cover;
+    height:14vh;
+    width:9vw;
+}
+.text-cont{
+   margin-right:3%;
+   margin-left:0.5%;
+}
+.first{
+    margin-left:0%;
+}
+footer{
+    background-color: #000000;
+    border:0.1px solid #000000;
+    color:rgb(199, 197, 197);
+}
+.footer ul{
+    justify-content:center;
+    height:7vh;
+    gap:10px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.footer li{
+    margin: 10% 2%;
+    color:white;
+    width:100%;
+}
+.footer a{
+    text-decoration:none;
+}
+.footer p{
+    text-align: center;
+}
+.contact{
+    background: #252525;
+    color: white;
+}
+.contact a{
+    color: white;
+}
+.ABOUT{
+    background-color: #252525;
+    color: white;
+}
+.ABOUT a{
+    color: white;
+}
