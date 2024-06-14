@@ -4,3 +4,5 @@ CODSOFT is a vibrant and diverse community that brings together individuals with
 To create a simple webpage using HTML, and CSS as a tribute to a person I admire, This project is a Level-2 Project.
 # Result 
 I have created a simple Webpage as a tribute to Steve Jobs and I used HTML, CSS and a little bit of JavaScript.
+
+![Uploading Screenshot (230).png…]()
